@@ -6,22 +6,33 @@
             section {
                 width: 60%;
                 margin: 0 auto; 
-                text-align: center;
             }
             .heropic {
               width: auto;
               height: 100px;
             }
+            li {
+              list-style-type: none;
+            }
+            thead {
+              text-align: center;
+            }
+            .name-alias, .title {
+              text-align: center;
+            }
+            tr {
+              vertical-align: middle;
+            }
         </style>
         <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-        <title>My Page Title</title>
+        <title>My Superhero Gallery</title>
     </head>
     <body>
         <div class="back">
             <a href="index.html">Home</a>
         </div>
         <section>
-            <h1>My Superhero Gallery</h1>
+            <h1 class="title">My Superhero Gallery</h1>
             <table>
               <thead>
                 <tr>
@@ -34,8 +45,8 @@
               </thead>
               <tbody>
                 <tr>
-                  <th>Spiderpig</th>
-                  <td>Peter Porker</td>
+                  <th class="name-alias">Spiderpig</th>
+                  <td class="name-alias">Peter Porker</td>
                   <td>
                     <a href="images/spiderpig.jpg"
                       ><img
@@ -60,8 +71,8 @@
                 </tr>
       
                 <tr>
-                  <th>Deadpool</th>
-                  <td>Wade Wilson Deadpool</td>
+                  <th class="name-alias">Deadpool</th>
+                  <td class="name-alias">Wade Wilson</td>
                   <td>
                     <a href="images/deadpool.png"
                       ><img
@@ -87,8 +98,8 @@
                 </tr>
 
                 <tr>
-                  <th>Daredevil</th>
-                  <td>Matthew Michael Murdock</td>
+                  <th class="name-alias">Daredevil</th>
+                  <td class="name-alias">Matthew Michael Murdock</td>
                   <td>
                     <a href="images/daredevil.jpeg"
                       ><img
@@ -107,6 +118,56 @@
                   <td>
                     <ul>
                       <li>Vulnerability to powerful sounds or odors</li>
+                    </ul>
+                  </td>
+                </tr>
+                
+                <tr>
+                  <th class="name-alias">Magneto</th>
+                  <td class="name-alias">Max Eisenhardt</td>
+                  <td>
+                    <a href="images/magneto.jpeg"
+                      ><img
+                        class="heropic"
+                        src="images/magneto.jpeg"
+                        alt="Magneto"
+                    ></a>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>Magnetism manipulation</li>
+                      <li>Astral projection</li>
+                      <li>Psychic shield via helmet</li>
+                    </ul>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>Quicksilver</li>
+                    </ul>
+                  </td>
+                </tr>
+
+                <tr>
+                  <th class="name-alias">Homelander</th>
+                  <td class="name-alias">John</td>
+                  <td>
+                    <a href="images/homelander.webp"
+                      ><img
+                        class="heropic"
+                        src="images/homelander.webp"
+                        alt="Homelander"
+                    ></a>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>Superhuman strength</li>
+                      <li>The Ultimate Boy Scout</li>
+                      <li>X-ray Vision</li>
+                    </ul>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>Knowing he has no family</li>
                     </ul>
                   </td>
                 </tr>

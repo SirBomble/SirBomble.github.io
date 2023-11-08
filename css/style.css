@@ -4,7 +4,9 @@
     color: black;
     font-family: body-font;
 }
-
+html {
+    scroll-behavior:smooth;
+}
 .section-wrap {
     height: 100vh;
     display: flex;

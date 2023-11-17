@@ -43,9 +43,8 @@ a:hover {
     color: #841212;
 }
 section {
-    width: 60%;
-    margin: 0 auto; 
     text-align: center;
+    padding-top: .8em;
 }
 nav a { 
     padding: 10px;
@@ -86,16 +85,6 @@ tr {
 iframe {
     max-width: 100%;
 }
-.w3 {
-    position: fixed;
-    bottom: 10px;
-    left: 10px;
-}
-.test {
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-}
 .bear {
     width: auto;
     height:  10em;
@@ -105,4 +94,7 @@ iframe {
     position: fixed;
     top: 10px;
     left: 10px;
+}
+.footer-container {
+    background-color: #f4f4f4;
 }

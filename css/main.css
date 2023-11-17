@@ -38,6 +38,7 @@ h1, h2 {
 a {
     color: var(--sykesred);
     font-family: link-font;
+    text-decoration: none;
 }
 a:hover {
     color: #841212;
